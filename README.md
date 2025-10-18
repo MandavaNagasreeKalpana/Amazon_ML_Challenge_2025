@@ -1,9 +1,5 @@
 # Amazon_ML_Challenge_2025
 
-Of course. Here is a professional and well-structured `README.md` file for your GitHub repository. It clearly explains the project's goals, methodology, and key features based on the work you've done.
-
-You can copy and paste this directly into your `README.md` file on GitHub.
-
 -----
 
 # 🧠 Smart Product Pricing - ML Challenge 2025
@@ -51,8 +47,3 @@ Our approach is built on three pillars: sophisticated feature engineering, multi
 └── README.md                   # This file
 ```
 
-## 🚀 How to Run
-
-1.  **Preprocessing:** Execute the `Ml_train_preprocessing.ipynb` notebook to generate the cleaned training data (`train_final_cleaned_v2.csv`) and save the necessary preprocessing models (`scaler_v2.pkl`, etc.). Then, run the `test_preprocessing.ipynb` notebook to prepare the test data.
-2.  **Training:** Run the final model training script within the training notebook. This will train the three specialist models on the full, cleaned dataset and save them to the `models/deployment_models/` folder.
-3.  **Inference:** Use the final "Interactive Prediction" script to load the trained models and make predictions on new, unseen product images and descriptions.
